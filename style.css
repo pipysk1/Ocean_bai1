@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    position: relative;
+}
+
+.box__a1 {
+    border: 4px solid red;
+    height: 2000px;
+    width: 1000px;
+}
+
+.box__a2 {
+    position: fixed;
+    top: 0;
+    width: 500px;
+    height: 46px;
+    border: 4px solid yellow;
+}
+
+.box__a3 {
+    position: fixed;
+    bottom: 0;
+    width: 500px;
+    height: 46px;
+    border: 4px solid blue;
+}
+
+.box__a4 {
+    margin-top: 100px;
+    position: sticky;
+    border: 4px solid brown;
+    height: 500px;
+    width: 750px;
+}
+
+.box__a5 {
+    position: sticky;
+    border: 4px solid violet;
+    height: 150px;
+    width: 300px;
+    top: 50%;
+    margin-left: 200px;
+}
+
+.box__a6 {
+    border: 4px solid black;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 50%;
+    left: 50%;
+    z-index: 1;
+}
